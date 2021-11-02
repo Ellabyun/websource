@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet("/InfoServlet")
+@WebServlet("/info")
 public class InfoServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
@@ -22,7 +22,7 @@ public class InfoServlet extends HttpServlet {
 		String password=request.getParameter("password");
 		String username=request.getParameter("username");
 		
-		response.setContentType("text/html;charset=urf-8");
+		response.setContentType("text/html;charset=utf-8");
 		PrintWriter out = response.getWriter();
 		out.print("<!DOCTYPE html>");
 		out.print("<title>사용자 정보</title>");

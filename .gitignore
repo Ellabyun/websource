@@ -5,6 +5,7 @@
 .classpath
 .project
 Servers/
+*/.gitignore
 ch1/.gitignore
 ch2/.gitignore
 ch1/WebContect/
